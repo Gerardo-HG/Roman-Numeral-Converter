@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1A1B2F; /* Fondo oscuro */
+    color: #FFFFFF;           /* Texto blanco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  header h1 {
+    font-size: 1rem; /* Título pequeño para "freeCodeCamp" */
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+    opacity: 0.8;   /* Un poco más tenue */
+  }
+
+  header h2 {
+    font-size: 1.5rem; /* "ROMAN NUMERAL CONVERTER" más grande */
+  }
+
+  .converter-container {
+    background-color: #2E2F44; /* Caja un poco más clara que el fondo */
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    max-width: 90%;
+  }
+
+  .converter-container label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .converter-container input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #181A2B; /* Fondo interno del input */
+    color: #FFFFFF;
+    font-size: 1rem;
+  }
+
+  .converter-container button {
+    background-color: #FFA500; /* Botón naranja */
+    border: none;
+    border-radius: 4px;
+    color: #000000;
+    font-weight: bold;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .converter-container button:hover {
+    background-color: #FFC107; /* Efecto hover */
+  }
+
+  #output {  
+    width: 200px;            /* Ancho del div */  
+    border: 2px solid gray;  /* Borde gris */  
+    border-radius: 5px;      /* Bordes redondeados opcional */  
+    padding: 10px;          /* Espaciado interno */  
+    margin: 20px auto;      /* Margen superior e inferior de 20px, y auto para centrar horizontalmente */  
+    display: flex;          /* Utiliza flexbox */  
+    justify-content: center; /* Centra el contenido horizontalmente */  
+    align-items: center;    /* Centra el contenido verticalmente */  
+    text-align: center;     /* Alineación del texto */  
+}  
